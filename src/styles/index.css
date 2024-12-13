@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "sserif";
+    src: url('../assets/fonts/serif.woff2') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ssans-serif";
+    src: url('../assets/fonts/sans-serif.woff2') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@layer utilities {
+    .mask-180 {
+        -webkit-mask-image: -webkit-linear-gradient(-90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 90%);
+        mask-image: linear-gradient(-90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 90%);
+        mask: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 90%);
+    }
+
+    .after-top-0::after {
+        top: 0% !important;
+    }
+    
+    .vertical-text {
+        writing-mode: vertical-lr;
+        rotate: 180deg;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+@keyframes slide-in {
+    from {
+        top: 100%;
+    }
+    to {
+        top: 0;
+    }
+}
+
+@keyframes slide-out {
+    from {
+        top: 0;
+    }
+    to {
+        top: 100%;
+    }
+}
