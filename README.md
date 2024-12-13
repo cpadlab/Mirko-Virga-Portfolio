@@ -1,8 +1,8 @@
 # Mirko Vigna PortFolio 2024
 
-**Carlos Padilla - Spec Work**
+**Carlos Padilla - Spec Work** | Spec Work from Mirko virga's portfolio, made using React, GSAP, TailwindCSS and Frammer Motion.
 
-Live demo: [Codepen/cpadlab](https://codepen.io/cpadlab)
+Live demo: [Codepen/cpadlab](https://codepen.io/cpadlab/pen/Wbeorrq)
 
 ## Requirements
 
