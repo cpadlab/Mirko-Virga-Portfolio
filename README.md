@@ -6,11 +6,10 @@ Live demo: [Codepen/cpadlab](https://codepen.io/cpadlab/pen/Wbeorrq)
 
 ## Requirements
 
-- [NodeJS](https://nodejs.org/en/)
-- [Framer Motion](https://jquery.com/)
+- [Framer Motion]()
 - [GSAP](https://gsap.com/)
-- [TailwindCSS](https://jqueryui.com/)
-- [React](https://jquery.com/)
+- [TailwindCSS]()
+- [React]()
 
 > [!NOTE]  
 > You can find a pre-built in version in the /dist directory
@@ -19,7 +18,8 @@ Live demo: [Codepen/cpadlab](https://codepen.io/cpadlab/pen/Wbeorrq)
 
 ```bash
 git clone https://github.com/cpadlab/Mirko-Vigna-Portfolio
-cd Mirko-Vigna-Portfolio && npm run dev
+cd Mirko-Vigna-Portfolio
+npm install && npm run dev
 ```
 
 ## Gallery
